@@ -1,5 +1,16 @@
 @import './base.css';
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: roboto, sans-serif;
+  background-color: #f3f6f6;
+}
+
+main {
+  width: 1300px;
+  /* border: red 2px solid; */
+  margin: 0 auto;
 }

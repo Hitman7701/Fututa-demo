@@ -16,14 +16,17 @@
 
 <style scoped>
 .header {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   height: 60px;
   background: linear-gradient(0.25turn, #be80ff, #6325ff);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 30px;
-  font-family:;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+  margin-bottom: 70px;
 }
 
 nav {
@@ -46,6 +49,5 @@ button {
 
 button:hover {
   background-color: #d58972;
-  font-family:;
 }
 </style>
